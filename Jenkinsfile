@@ -23,7 +23,7 @@ node {
         sh 'curl -fL https://getcli.jfrog.io | sh'
         
         sh './jfrog'
-        sh './jfrog rt u hello example-repo-local/ --user=admin --password=password --url=http://192.168.99.105:8081/artifactory'
+        sh './jfrog rt u hello example-repo-local/ --user=admin --password=password --url=http://192.168.99.100:8081/artifactory'
 
  
 
